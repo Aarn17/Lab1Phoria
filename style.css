@@ -32,14 +32,53 @@ body {
 
 .section1{
     padding-left: 3em;
-    padding-top: 3em;
+    padding-top: 4em;
+    background-color: #151E3F;
+    background-image: url(./images/background-header.png);
+    background-size: 100em;
+}
+
+.section1 h1{
+    color: white;
+    font-size: 3em;
+    
 }
 
 .section1 p {
     max-width: 20em;
+    color: whitesmoke;
+    padding-top: 2em;
+    font-size: 1.1em;
+    padding-bottom: 3em;
 }
 
 .hero{
    margin-top: -15em;
    padding-left: 10em;
+   margin-bottom: -0.25em;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #FA9589;
+    border-radius: 2em;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    
+    
+}
+
+.section2{
+    padding-left: 3em;
+    padding-top: 4em;
+    text-align: center;
+    background-color: #FA9589;
+    color: white;
+}
+
+.section2 h2{
+    font-size: 2.2em;
 }
