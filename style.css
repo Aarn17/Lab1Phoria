@@ -29,3 +29,17 @@ nav{
 body {
     margin: 0;
 }
+
+.section1{
+    padding-left: 3em;
+    padding-top: 3em;
+}
+
+.section1 p {
+    max-width: 20em;
+}
+
+.hero{
+   margin-top: -15em;
+   padding-left: 10em;
+}
