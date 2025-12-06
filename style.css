@@ -8,6 +8,7 @@ nav{
     display: flex;
     padding: 4em;
     
+    
 }
 
 .logo{
@@ -35,7 +36,7 @@ body {
     padding-top: 4em;
     background-color: #151E3F;
     background-image: url(./images/background-header.png);
-    background-size: 100em;
+    background-size: 102em;
 }
 
 .section1 h1{
@@ -54,7 +55,7 @@ body {
 
 .hero{
    margin-top: -15em;
-   padding-left: 10em;
+   padding-left: 7.2em;
    margin-bottom: -0.25em;
 }
 
@@ -77,8 +78,53 @@ body {
     text-align: center;
     background-color: #FA9589;
     color: white;
+    padding-bottom: 3em;
 }
 
 .section2 h2{
-    font-size: 2.2em;
+    font-size: 2.5em;
+}
+
+.wandelaars{
+    margin-top: -2em;
+    align-items: center;
+}
+
+.section2 p{
+    max-width: 27em;
+    font-size: 1.2em;
+    padding-left: 3em;
+    
+}
+
+.section3{
+     padding-left: 3em;
+    padding-top: 4em;
+    text-align: center;
+    background-color: #151E3F;
+    color: white;
+    padding-bottom: 3em;
+}
+
+.section3 h2{
+    font-size: 2.5em;
+}
+
+.section3 p{
+     max-width: 27em;
+    font-size: 1.2em;
+    padding-left: 3em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.mockup{
+    padding-bottom: 5em;
+    
+}
+
+.section3 a{
+    align-items: center;
+    
 }
