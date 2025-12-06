@@ -220,3 +220,62 @@ contact form div{
     
 }
 
+.bericht{
+    padding-bottom: 2em;
+}
+
+
+.section6{
+    padding-bottom: 10em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 1em;
+    color: white;
+    background-color: #FA9589;
+    border-radius: 3em;
+    width: 25em;
+    margin-top: 7em;
+}
+
+.info  div{
+    display: flex;
+    align-items: left;
+    gap: 1em;
+
+}
+
+.info h2{
+    font-size: 2.5em;
+    color: white;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.info123{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    background-color: #151E3F;
+    color: white;
+    gap: 4em;
+    padding: 1em;
+    padding-left: 5em;
+    box
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
