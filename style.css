@@ -191,7 +191,7 @@ body {
     padding-left: 2.2em;
     padding-right: 2.2em;
     padding-bottom: 1.2em;
-    padding-top: 1.2em;
+    padding-top: 1em;
 
 }
 
@@ -353,26 +353,38 @@ footer a{
 
     }
 
-    .section2{
-        display: flex;
-        flex-direction: row;
-        
-    }
+    .section2 div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 3em;
+    align-items: center;
+    padding-bottom: 3em;
+  }
 
-    .wandelaars{
-        height: 40em;
-        padding-right: 40em;
-        margin-left: -10em;
-    }
+  .section2 div img {
+    grid-column: 1;
+    height: 40em;
+    margin-left: -14em;
+  }
 
-    .section2 h2{
-        padding-left: 10em ;
-        font-size: 3.5em;
-        padding-top: 2em;
+  .section2 div h2 {
+    grid-column: 2;
+    margin-top: 0;
+    margin-bottom: -7em;
+    font-size: 3em;
+  }
 
-    }
+  .section2 div p {
+    grid-column: 2;
+    margin-top: 8em;
+    max-width: 30em;
+  }
 
-    .section2 p{
-        padding-left: 80em;
-    }
+  .section6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20em;
+    
+  }  
 }
