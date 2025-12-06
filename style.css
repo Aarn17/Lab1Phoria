@@ -20,7 +20,7 @@ nav{
     color: white;
     font-size: 1.3em;
     padding: 3em;
-    g
+    
     
 }
 .logo{
@@ -310,5 +310,54 @@ footer a{
 @media (min-width:801px) {
     .hamburger{
         display: none;
+    }
+
+    .section1{
+        padding-left: 12em;
+
+    }
+
+    .section1 h1{
+        font-size: 4em;
+    }
+    .section1 p{
+        font-size: 1.4em;
+        margin-bottom: 2.5em;
+    }
+
+    .hero{
+        padding-left: 50em;
+        margin-top: -32em;
+        
+    }
+    .button{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .wandelaars{
+        height: 40em;
+        padding-right: 40em;
+        margin-left: -10em;
+    }
+
+    .section2 h2{
+        padding-left: 10em ;
+        font-size: 3.5em;
+        padding-top: 2em;
+
+    }
+
+    .section2 p{
+        padding-left: 80em;
     }
 }
