@@ -5,6 +5,9 @@
    
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 nav{
     background-color: #151E3F;
@@ -13,18 +16,6 @@ nav{
     
 }
 
-.slideout{
-    padding-top: 2em;
-}
- 
-.links{
-    text-decoration: none;
-    color: white;
-    font-size: 1.3em;
-    padding: 3em;
-    
-    
-}
 .logo{
     padding-left: 9em;
     height: 4em;
@@ -44,6 +35,7 @@ nav{
     padding: 0;
     cursor: pointer;
     z-index: 1100;
+    
 }
 
 .hamburger span {
@@ -76,13 +68,17 @@ nav{
     top: 0;
     left: 0;
     width: 15em;
-    height: 10em;
+    height: 16em;
     background-color: #151E3F;
     border-radius: 0.5em;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in;
     z-index: 1050;
-    padding-top: 8em ;
+    padding-top: 7em ;
+    display: flex;
+    flex-direction: column;
+    
+    
    
 }
 
@@ -92,6 +88,12 @@ nav{
     padding: 1.5em 2em ;
     font-size: 1.2em;
     font-family: Geologica, sans-serif;
+    padding-left: 3em;
+}
+
+.slideout a:hover{
+    color: #FA9589;
+    transition: all 0.2s ease-in-out;
     
 }
 
