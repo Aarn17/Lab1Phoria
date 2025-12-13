@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 nav{
@@ -127,6 +128,7 @@ body {
     background-color: #151E3F;
     background-image: url(./images/background-header.png);
     background-size: cover;
+    
 }
 
 .section1 h1{
@@ -144,10 +146,14 @@ body {
 }
 
 .hero{
-   margin-top: -15em;
-   padding-left: 7.2em;
-   margin-bottom: -0.25em;
-   height: 37em;
+    max-width: 30em;
+   padding-left: 5em;
+   height: auto;
+   overflow: hidden;
+   display: block;
+   margin: 0 auto;
+   margin-top: -16em;
+   
 }
 
 .button{
@@ -195,6 +201,7 @@ body {
 .wandelaars{
     margin-top: -2em;
     align-items: center;
+    overflow: hidden;
 }
 
 .section2 p{
@@ -406,11 +413,6 @@ footer a{
         display: none;
     }
 
-    .section1{
-        padding-left: 12em;
-
-    }
-
     .section1 h1{
         font-size: 4em;
     }
@@ -418,11 +420,15 @@ footer a{
         font-size: 1.4em;
         margin-bottom: 2.5em;
         max-width: 25em;
+        
     }
 
     .hero{
-        padding-left: 50em;
+        display: flex;
+        margin-left: auto;
+        margin-right: 10em;
         margin-top: -32em;
+        height: 40em;
         
     }
     .button{
