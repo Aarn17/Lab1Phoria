@@ -7,6 +7,12 @@
    
 }
 
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
   
@@ -14,8 +20,10 @@ html {
 
 nav{
     background-color: #151E3F;
-    display: flex;
+    display: block;
+    position: relative;
     padding: 4em;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.25);
     
 }
 
@@ -120,9 +128,7 @@ nav{
     }
 }
 
-body {
-    margin: 0;
-}
+
 
 .section1{
     padding-left: 3em;
@@ -148,8 +154,8 @@ body {
 }
 
 .hero{
-    max-width: 30em;
-   padding-left: 5em;
+    max-width: 85%;
+   padding-left: 0;
    height: auto;
    overflow: hidden;
    display: block;
@@ -350,7 +356,7 @@ body {
     font-size: 1em;
     outline: none;
     margin: 2em;
-    width: 25em;
+    width: 70%;
     color: white;
     caret-color: white;
     
@@ -380,7 +386,8 @@ body {
     color: white;
     background-color: #FA9589;
     border-radius: 3em;
-    width: 25em;
+    width: 100%;
+    max-width: 25em;
     margin-top: 7em;
 }
 
@@ -414,6 +421,10 @@ footer div{
     padding: 1em;
     padding-left: 3em;
     
+}
+
+footer{
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.25);
 }
 
 footer a{
@@ -494,6 +505,13 @@ footer a{
   
   .section5 h2{
     padding-top: 1em;
+  }
+
+  .contact input{
+    width: 90%;
+  }
+  .contact h2{
+    padding-left: 0.8em;
   }
 
   .section6{
