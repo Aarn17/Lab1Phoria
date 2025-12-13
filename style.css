@@ -146,6 +146,7 @@ nav{
 }
 
 .section1 p {
+    width: 100%;
     max-width: 20em;
     color: whitesmoke;
     padding-top: 2em;
@@ -213,6 +214,7 @@ nav{
 }
 
 .section2 p{
+    width: 100%;
     max-width: 27em;
     font-size: 1.2em;
     display: flex;
@@ -241,6 +243,7 @@ nav{
 }
 
 .section3 p{
+    width: 100%;
     max-width: 27em;
     font-size: 1.2em;
     text-align: center;
@@ -250,7 +253,8 @@ nav{
 
 .mockup{
     padding-bottom: 5em;
-    height: 20em;
+    max-height: 100%;
+    width: 20em;
 }
 
 .section4{
@@ -321,6 +325,7 @@ nav{
 }
 
 .waarden p{
+    width: 100%;
     max-width: 12em;
     margin: 0 auto;
     padding-bottom: 4em;
