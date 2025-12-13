@@ -13,7 +13,7 @@ nav{
     
 }
 
-.navlinks{
+.slideout{
     padding-top: 2em;
 }
  
@@ -26,13 +26,87 @@ nav{
     
 }
 .logo{
-    padding-left: 7em;
+    padding-left: 9em;
     height: 4em;
 }
 
+
+#hamburger{
+    display: none;
+}
 .hamburger{
+    display: inline-block;
+    position: absolute;
+    left: 3.5em;
+    top: 5.5em;
+    width: 1.5em;
     height: 2em;
-    padding-top: 1em;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.hamburger span {
+    position: absolute;
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.hamburger span:nth-child(1) {
+    top: 6px;
+}
+
+.hamburger span:nth-child(2) {
+    top: 12px;
+}
+
+#hamburger:checked ~ .slideout {
+    transform: translateX(0);
+}
+
+
+
+.slideout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15em;
+    height: 10em;
+    background-color: #151E3F;
+    border-radius: 0.5em;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in;
+    z-index: 1050;
+    padding-top: 8em ;
+   
+}
+
+.slideout a {
+    color: white;
+    text-decoration: none;
+    padding: 1.5em 2em ;
+    font-size: 1.2em;
+    font-family: Geologica, sans-serif;
+    
+}
+
+#hamburger:checked ~ .hamburger span:nth-child(1) {
+    opacity: 0;
+}
+
+#hamburger:checked ~ .hamburger span:nth-child(2) {
+    transform: rotate(45deg);
+    top: 6px;
+}
+
+#hamburger:checked ~ .hamburger span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 6px;
 }
 
 @media (max-width:800px) {
