@@ -203,10 +203,14 @@ nav{
 }
 
 .wandelaars{
+    width: 100%;
+    max-width: 25em;
+    height: auto;
+    margin: 0 auto;
     margin-top: -2em;
     align-items: center;
     overflow: hidden;
-    width: clamp(20em, 60vw, 40em);
+    
     padding-bottom: 2em;
 }
 
@@ -499,6 +503,12 @@ footer a{
     padding-bottom: 1.2em;
     padding-top: 1.2em;
 
+    }
+
+    .wandelaars{
+        width: 100%;
+        max-width: 50em;
+        padding-left: 5em;
     }
 
     .section2 div {
