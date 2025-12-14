@@ -88,8 +88,6 @@ nav{
     padding-top: 7em ;
     display: flex;
     flex-direction: column;
-    
-    
    
 }
 
@@ -122,11 +120,7 @@ nav{
     top: 6px;
 }
 
-@media (max-width:800px) {
-    .links{
-        display: none;
-    }
-}
+
 
 
 
@@ -205,12 +199,15 @@ nav{
 
 .section2 h2{
     font-size: 2.5em;
+    padding-bottom: 2em;
 }
 
 .wandelaars{
     margin-top: -2em;
     align-items: center;
     overflow: hidden;
+    width: clamp(20em, 60vw, 40em);
+    padding-bottom: 2em;
 }
 
 .section2 p{
@@ -438,8 +435,41 @@ footer a{
 }
 
 @media (min-width:801px) {
+
+   
     .hamburger{
         display: none;
+    }
+    
+    .slideout {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: start;
+        gap: 3em;
+        margin-left: auto;
+    }
+
+    .slideout a {
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .logo {
+        padding-left: 0;
+        margin-left: 4em;
     }
 
     .section1 h1{
@@ -450,6 +480,10 @@ footer a{
         margin-bottom: 2.5em;
         max-width: 25em;
         
+    }
+    
+    .section1-tekst{
+        padding-left: 7em;
     }
 
     .hero{
@@ -470,15 +504,17 @@ footer a{
     .section2 div {
     display: grid;
     grid-template-columns: auto 1fr;
-    column-gap: 3em;
+    column-gap: 2em;
     align-items: center;
     padding-bottom: 3em;
+    
   }
 
   .section2 div img {
     grid-column: 1;
-    height: 40em;
+    height: 30em;
     margin-left: -14em;
+    padding-top: 6em;
   }
 
   .section2 div h2 {
@@ -486,12 +522,15 @@ footer a{
     margin-top: 0;
     margin-bottom: -7em;
     font-size: 3em;
+    
   }
 
   .section2 div p {
     grid-column: 2;
     margin-top: 8em;
-    max-width: 30em;
+    width: 100%;
+    max-width: 25em;
+    
   }
 
   .section4{
