@@ -22,16 +22,17 @@ nav{
     background-color: #151E3F;
     display: block;
     position: relative;
-    padding: 4em;
+    padding: 2em;
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.25);
+    text-align: center;
+    
+
     
 }
 
 .logo{
-    padding-left: 9em;
-    height: 4em;
+    height: 3em;
 }
-
 
 #hamburger{
     display: none;
@@ -40,7 +41,7 @@ nav{
     display: inline-block;
     position: absolute;
     left: 3.5em;
-    top: 5.5em;
+    top: 3em;
     width: 1.5em;
     height: 2em;
     padding: 0;
@@ -98,6 +99,7 @@ nav{
     font-size: 1.2em;
     font-family: Geologica, sans-serif;
     padding-left: 3em;
+    text-align: left;
 }
 
 .slideout a:hover{
@@ -421,11 +423,12 @@ nav{
 footer div{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #151E3F;
     color: white;
     gap: 4em;
     padding: 1em;
-    padding-left: 3em;
+    
     
 }
 
