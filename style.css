@@ -293,7 +293,7 @@ nav{
     padding-left: 2.2em;
     padding-right: 2.2em;
     padding-bottom: 1.2em;
-    padding-top: 1em;
+    padding-top: 1.2em;
 
 }
 
@@ -441,9 +441,23 @@ footer a{
     color: white;
 }
 
+footer a:hover{
+    opacity: 70%;
+    transition: all 0.2s ease-in-out;
+}
+
 @media (min-width:801px) {
 
-   
+    .button:hover{
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 2.8em;
+        padding-right: 2.8em;
+    }
+
+    .button2:hover{
+        padding-top: 1.2em;
+    }
     .hamburger{
         display: none;
     }
