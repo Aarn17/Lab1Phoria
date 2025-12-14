@@ -448,13 +448,117 @@ footer a{
     text-decoration: none;
     color: white;
 }
+@media (min-width:801px){
+    
+    .wandelaars{
+    
+    width: 100%;
+    max-width: 27em;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -2em;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 15em;
+    
+    padding-bottom: 2em;
+    }
+
+    .section2 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 3em;
+
+  }
+  
+  .section2 div img {
+    grid-column: 1;
+    height: 30em;
+    margin-left: -14em;
+    padding-top: 6em;
+  }
+
+  .section2 div h2 {
+    grid-column: 2;
+    margin-top: 0;
+    margin-bottom: -7em;
+    font-size: 3em;
+    
+  }
+
+  .section2 div p {
+    grid-column: 2;
+    margin-top: 8em;
+    width: 100%;
+    max-width: 25em;
+    font-size: 1.4em;
+    
+  }
+
+  .section3 p{
+    font-size: 1.3em;
+  }
+
+  .section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 2em;
+  }
+
+  .section3-text{
+    max-width: 50%;
+  }
+  .section3-text p{
+    text-align: left;
+  }
+
+  .mockup{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .section5-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+    padding-top: 3em;
+    padding-bottom: 7em;
+  }
+
+  .section5 p{
+    font-size: 1.4em;
+  }
+  
+  .section5 h2{
+    padding-top: 1em;
+  }
+
+  .info{
+    padding: 3em;
+    
+  }
+
+  .info p{
+    font-size: 1.1em;
+  }
+}
 
 footer a:hover{
     opacity: 70%;
     transition: all 0.2s ease-in-out;
 }
 
-@media (min-width:801px) {
+
+@media (min-width:1200px) {
 
     .button:hover{
         padding-top: 1.5em;
@@ -483,11 +587,15 @@ footer a:hover{
         align-items: start;
         gap: 3em;
         margin-left: auto;
+        
+        
     }
 
     .slideout a {
         padding: 0;
         font-size: 1.1em;
+        margin-left: -2em;
+        
     }
 
     nav {
@@ -499,7 +607,8 @@ footer a:hover{
     .links{
         display: flex;
         margin-right: auto;
-    }
+        
+            }
 
 
     .logo {
@@ -520,9 +629,9 @@ footer a:hover{
         box-shadow: none;
         display: flex;
         align-items: center;
-        gap: 3em;
+        gap: 7em;
         margin-left: 0; 
-        padding-left: 8.5em;
+        padding-left: 14em;
     }
 
     
@@ -539,14 +648,19 @@ footer a:hover{
     }
     
     .section1-tekst{
-        padding-left: 7em;
+        padding-left: 10em;
     }
+
+    
 
     .hero{
         display: flex;
         margin-left: auto;
         margin-right: 10em;
         margin-top: -32em;
+        width: 100%;
+        max-width: 40em;
+        
        
     }
     .button{
@@ -559,8 +673,8 @@ footer a:hover{
 
     .wandelaars{
         width: 100%;
-        max-width: 40em;
-        padding-left: 5em;
+        max-width: 50em;
+        padding-left: 4em;
     }
 
     .section2 div {
@@ -572,7 +686,9 @@ footer a:hover{
     padding-bottom: 3em;
     
     
+    
   }
+  
 
   
 
