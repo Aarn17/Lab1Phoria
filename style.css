@@ -253,13 +253,16 @@ nav{
     font-size: 1.1em;
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
 }
 
+
+
 .mockup{
-    padding-bottom: 5em;
+    padding-bottom: 2em;
     max-height: 100%;
     width: 20em;
+    padding-top: 5em;
 }
 
 .section4{
@@ -556,7 +559,7 @@ footer a:hover{
 
     .wandelaars{
         width: 100%;
-        max-width: 50em;
+        max-width: 40em;
         padding-left: 5em;
     }
 
@@ -565,9 +568,13 @@ footer a:hover{
     grid-template-columns: auto 1fr;
     column-gap: 2em;
     align-items: center;
+    text-align: left;
     padding-bottom: 3em;
     
+    
   }
+
+  
 
   .section2 div img {
     grid-column: 1;
@@ -596,6 +603,30 @@ footer a:hover{
   .section3 p{
     font-size: 1.4em;
   }
+
+  .section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 15em;
+  }
+
+  .section3-text{
+    max-width: 50%;
+  }
+  .section3-text p{
+    text-align: left;
+  }
+
+  .mockup{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
 
   .section4{
     padding-top: 5em;
