@@ -25,7 +25,6 @@ nav{
     padding: 2em;
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.25);
     text-align: center;
-    
 
     
 }
@@ -40,7 +39,7 @@ nav{
 .hamburger{
     display: inline-block;
     position: absolute;
-    left: 2.5em;
+    left: 3em;
     top: 3em;
     width: 1.5em;
     height: 2em;
@@ -138,6 +137,7 @@ nav{
 .section1 h1{
     color: white;
     font-size: 3em;
+    padding-top: 1em;
     
 }
 
@@ -450,6 +450,7 @@ footer a{
 }
 @media (min-width:801px){
     
+    
     .wandelaars{
     
     width: 100%;
@@ -486,6 +487,7 @@ footer a{
     margin-top: 0;
     margin-bottom: -7em;
     font-size: 3em;
+    padding-left: 0.5em;
     
   }
 
@@ -493,7 +495,7 @@ footer a{
     grid-column: 2;
     margin-top: 8em;
     width: 100%;
-    max-width: 25em;
+    max-width: 17em;
     font-size: 1.4em;
     
   }
@@ -560,6 +562,25 @@ footer a:hover{
 
 @media (min-width:1200px) {
 
+    #navlink{
+        background-color: #FA9589;
+         padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    border-radius: 2em;
+    transition: all 0.2s ease-in-out;
+    }
+
+    #navlink:hover{
+        color: #151E3F;
+        opacity: 0.7;
+        padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-bottom: 0.7em;
+    padding-top: 0.7em;
+        
+    }
     .button:hover{
         padding-top: 1.5em;
         padding-bottom: 1.5em;
