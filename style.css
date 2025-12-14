@@ -147,17 +147,19 @@ nav{
     color: whitesmoke;
     padding-top: 2em;
     font-size: 1.1em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
 }
 
 .hero{
-    max-width: 85%;
+    width: 30em;
+    max-width: 100%;
    padding-left: 0;
    height: auto;
    overflow: hidden;
    display: block;
    margin: 0 auto;
-   margin-top: -16em;
+  margin-top: -10em;
+ 
    
 }
 
@@ -218,8 +220,8 @@ nav{
 
 .section2 p{
     width: 100%;
-    max-width: 27em;
-    font-size: 1.2em;
+    max-width: 20em;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -247,8 +249,8 @@ nav{
 
 .section3 p{
     width: 100%;
-    max-width: 27em;
-    font-size: 1.2em;
+    max-width: 20em;
+    font-size: 1.1em;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 3em;
@@ -332,7 +334,7 @@ nav{
     max-width: 12em;
     margin: 0 auto;
     padding-bottom: 4em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-top: 1.5em;
 }
 
@@ -422,12 +424,15 @@ nav{
 
 footer div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #151E3F;
     color: white;
-    gap: 4em;
+    gap: 2em;
     padding: 1em;
+    box-sizing: border-box;
+    max-width: 100%;
     
     
 }
