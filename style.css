@@ -40,7 +40,7 @@ nav{
 .hamburger{
     display: inline-block;
     position: absolute;
-    left: 3.5em;
+    left: 2.5em;
     top: 3em;
     width: 1.5em;
     height: 2em;
@@ -208,7 +208,7 @@ nav{
 
 .wandelaars{
     width: 100%;
-    max-width: 25em;
+    max-width: 23em;
     height: auto;
     margin: 0 auto;
     margin-top: -2em;
@@ -266,8 +266,8 @@ nav{
     text-align: center;
     background-color: #FA9589;
     margin-top: -2em;
-    padding-top: 4em;
-    padding-bottom: 7em;
+    padding-top: 6em;
+    padding-bottom: 9em;
 }
 
 .section4 h2{
@@ -305,7 +305,7 @@ nav{
     color: white;
     margin-top: -2.2em;
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 7em;
 }
 
 .section5-content{
@@ -490,13 +490,40 @@ footer a:hover{
     nav {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+    }
+
+    .links{
+        display: flex;
+        margin-right: auto;
     }
 
 
     .logo {
         padding-left: 0;
-        margin-left: 4em;
+        margin-left: -40em;
+        
+        
     }
+
+    .slideout {
+        position: static;
+        transform: none;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        gap: 3em;
+        margin-left: 0; 
+        padding-left: 8.5em;
+    }
+
+    
+
 
     .section1 h1{
         font-size: 4em;
@@ -562,7 +589,12 @@ footer a:hover{
     margin-top: 8em;
     width: 100%;
     max-width: 25em;
+    font-size: 1.4em;
     
+  }
+
+  .section3 p{
+    font-size: 1.4em;
   }
 
   .section4{
@@ -577,6 +609,10 @@ footer a:hover{
     gap: 10em;
     padding-top: 3em;
     padding-bottom: 7em;
+  }
+
+  .section5 p{
+    font-size: 1.4em;
   }
   
   .section5 h2{
